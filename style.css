@@ -1,0 +1,151 @@
+*{
+    
+    font-family: 'Inter';
+    font-weight: 350;
+    font-size: 32px;
+    line-height: 150%;
+ 
+}
+
+body{
+    background-image: url("assets/fondo5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    background-color: #b2966a;
+}
+.logo{
+    width: 10%;
+    padding: 15px;
+    margin-left: 10px;   
+    position: relative; 
+    
+}
+
+main{
+    
+    display: flex;
+    margin-bottom: 30px;
+    margin-left: 180px;
+
+    
+}
+
+.text-area {
+    
+    height: 300px;
+    border-radius: 30px;
+    color: black;
+    margin-top: 90px;
+    padding: 2px;
+    
+    
+}
+::placeholder { color:black }
+
+.text-area:focus {
+  outline: none;
+}
+
+
+
+.mensaje{
+    height: 300px;
+    outline: none;
+    background-image: url("assets/muneco.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border: black;
+    border-radius: 20px;
+    color: #0A3871;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+         
+}
+
+.mensaje:focus {
+    outline: none;
+}
+.mostrador p {
+    width: 50%;
+    margin-left: 120px;
+    padding-left: 30px;
+    text-align: center;
+}
+
+
+.botones{
+    display: flex;
+    margin-top: 18px;
+    background: none;
+}
+
+
+
+.boton-desencriptar {
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 60px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.boton-desencriptar:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.boton-encriptar {
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 60px;
+    width: 328px;
+}
+
+.boton-encriptar:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+.copiar {
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 120px;
+    margin-top: 120px;
+    width: 300px;
+}
+
+
+
+
+footer{
+    text-align: center;
+    background-color: #b2966a;
+    padding: 10px;
+
+}
+
+.copyright{
+    color:black;
+    font-size: 13px;
+    margin:20px;
+}
+
+.logomio{
+    width: 20%;
+    padding-top: 10px;
+    margin-left: 10px;   
+    position: relative; 
+}
+
+
